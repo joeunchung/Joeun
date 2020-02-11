@@ -27,4 +27,38 @@ transition: opacity .2s ease-in-out;
 #navigation-logos a:focus img {
   opacity: .8;
 
+  position: relative;
+  left: 20px;
+}
+
+
+
+/* last 3 opposite buttons below */
+
+#navigation-logos-opposite {
+  text-align: center;
+  list-style-type: none;
+}
+
+#navigation-logos-opposite li {
+
+  display: block;
+}
+
+#navigation-logos-opposite a img {
+  opacity: .8;
+
+-webkit-transition: opacity .2s ease-in-out;
+-moz-webkit-transition: opacity .2s ease-in-out;
+-o-webkit-transition: opacity .2s ease-in-out;
+transition: opacity .2s ease-in-out;
+
+}
+
+#navigation-logos-opposite a:hover img,
+#navigation-logos-opposite a:focus img {
+  opacity: .25;
+
+  position: relative;
+  right: 20px;
 }
