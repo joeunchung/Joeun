@@ -1,0 +1,30 @@
+
+body {
+  background-color: #2b2b2b;
+}
+
+#navigation-logos {
+  text-align: center;
+  list-style-type: none;
+}
+
+#navigation-logos li {
+
+  display: block;
+}
+
+#navigation-logos a img {
+  opacity: .25;
+
+-webkit-transition: opacity .2s ease-in-out;
+-moz-webkit-transition: opacity .2s ease-in-out;
+-o-webkit-transition: opacity .2s ease-in-out;
+transition: opacity .2s ease-in-out;
+
+}
+
+#navigation-logos a:hover img,
+#navigation-logos a:focus img {
+  opacity: .8;
+
+}

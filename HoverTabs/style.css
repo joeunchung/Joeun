@@ -1,0 +1,64 @@
+
+
+body {background-color: #2B2B2B;}
+
+#nav {
+
+  /*float left makes the nav list go horizontally*/
+  padding: 48px 48px 48px 48px;
+  font-size: 24pt;
+  list-style-type: none;
+
+}
+
+#nav a{
+  text-decoration: none;
+}
+
+#nav li {
+  padding: 24 24 24 24px;
+  display: block;
+  line-height: 2.2;
+
+}
+
+#nav li a {
+  padding: 24px 100px 24px 24px;
+  font-weight: bold;
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0 1px 1px rgba(0,0,0,.7);
+  /* 0= horizontal shadow, 1= vertical, and 1=blur.
+  rgba is selection of color with opacity. */
+
+
+
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+
+-webkit-border-top-right-radius: 32px;
+-webkit-border-bottom-right-radius: 32px;
+-moz-border-radius-topright: 32px;
+-moz-border-radius-bottomright: 32px;
+
+  /*rounding out corders*/
+
+
+
+
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+
+}
+
+
+#nav li a:hover,
+#nav li a:focus {
+  padding: 24px 240px 24px 24px;
+  color: #fff;
+  background: rgba(255, 155, 155, .25);
+  font-size: 36px;
+  font-weight: bold;
+}
