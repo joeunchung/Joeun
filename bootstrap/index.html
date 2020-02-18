@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Bootstrap 4 Example</title>
+
+  <style>
+  .backgroundcolor {
+    border-radius: 24px;
+    background: #fff;
+    padding-top: 24px;
+    color: #707070;
+  }
+
+  .jumbotron {
+    background-image: linear-gradient(rgba(52, 58, 64, .7), rgba(255, 255, 255, 1)), url(image/hero.jpg);
+    background-size: cover;
+    height: 500px;
+    text-shadow: 1px 1px 6px black;
+    font-weight: 600;
+    font-family: monospace;
+  }
+
+  #hero-text {
+    position: absolute;
+    top: 180px;
+    padding-left: 80px;
+    color: white;
+  }
+
+  .portrait {
+    border-radius: 24px;
+    margin-top: 16px;
+    height: 300px;
+    width: 220px;
+  }
+
+  .project-link {
+    padding-top: 24px;
+  }
+
+  .project-link a {
+    padding-top: 24px;
+    color: #707070;
+    text-decoration: none;
+  }
+
+  .project-link a:hover {
+    background: #ffffcc;
+    color: black;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    font-size: 12px;
+  }
+
+  .footer a,
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+  </style>
+</head>
+
+
+
+
+
+<body>
+
+  <!-- NAVBAR HERE. fluid goes 100% width -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="image/cat-logo.png" alt="" width="60px">
+      </a>
+
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span>
+            </a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+
+
+
+    <!-- JUMBOTON HERE. fluid goes 100% width -->
+    <div class="jumbotron jumbotron-fluid">
+      <div id="hero-text" class="container">
+        <h1 class="display-4" style="margin-bottom: 32px">Hi, I'm Meowser Hisstley</h1>
+        <p class="lead">I'm a Product Designer based in San Francisco.
+          <br>I design intuitive and delightful experiences.
+        </p>
+        </div>
+      </div>
+
+
+
+      <!-- PROJECTS -->
+
+      <div class="container-fluid" style="padding-top: 80px">
+        <div class"row">
+
+          <div class="col mx-auto text-center mb-5">
+            <h2 id="projects">PROJECTS</h2>
+          </div>
+
+
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-6 text-center" style="padding: 32px">
+                <img src="image/app1.png" alt="project n" height="300"><br>
+              <a href="project-full.html" class="btn btn-dark" style="margin-top: 24px"> Project 1</a>
+              </div>
+
+              <div class="col-sm-6 text-center" style="padding: 32px">
+                <img src="image/app2.png" alt="project n" height="300"><br>
+              <a href="project-full.html" class="btn btn-dark" style="margin-top: 24px"> Project 2</a>
+              </a>
+            </div>
+
+            <div class="col-sm-6 text-center" style="padding: 32px">
+              <img src="image/app3.png" alt="project n" height="300"><br>
+              <a href="project-full.html" class="btn btn-dark" style="margin-top: 24px"> Project 3</a>
+            </div>
+
+            <div class="col-sm-6 text-center" style="padding: 32px">
+              <img src="image/app4.png" alt="project n" height="300"><br>
+              <a href="project-full.html" class="btn btn-dark" style="margin-top: 24px"> Project 4</a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- VISUAL ART GALLERY -->
+
+        <div class="container-fluid">
+          <div class"row">
+
+            <div class="col mx-auto text-center mb-5" style="padding-top: 124px">
+              <h2 >VISUAL DESIGN GALLERY</h2>
+            </div>
+
+
+
+            <div class="container-fluid" style="padding-bottom: 100px">
+              <div class="row">
+                <div class="col-sm-3 text-center" style="padding: 32px">
+                  <img src="image/art1.jpg" alt="project n" height="200">
+                </div>
+
+                <div class="col-sm-3 text-center" style="padding: 32px">
+                  <img src="image/art2.jpg" alt="project n" height="200">
+                </a>
+              </div>
+
+              <div class="col-sm-3 text-center" style="padding: 32px">
+                <img src="image/art3.jpg" alt="project n" height="200">
+              </div>
+
+              <div class="col-sm-3 text-center" style="padding: 32px">
+                <img src="image/art4.jpg" alt="project n" height="200">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-3 text-center" style="padding: 32px">
+                <img src="image/art5.jpg" alt="project n" height="200">
+              </div>
+
+              <div class="col-sm-3 text-center" style="padding: 32px">
+                <img src="image/art6.jpg" alt="project n" height="200">
+              </a>
+            </div>
+
+            <div class="col-sm-3 text-center" style="padding: 32px">
+              <img src="image/art7.jpg" alt="project n" height="200">
+            </div>
+
+            <div class="col-sm-3 text-center" style="padding: 32px">
+              <img src="image/art8.jpg" alt="project n" height="200">
+            </div>
+          </div>
+
+          <div class="col mx-auto text-center mb-5" style="padding-top: 16px">
+            <button type="button" class="btn btn-outline-dark btn-lg"><a href="https://www.google.com/search?q=cat+digital+art&sxsrf=ACYBGNRLvBKVXXcT1MMprWc42OSC9qyDQQ:1581988760331&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjUpOSw99nnAhUKWqwKHWOcCHUQ_AUoAXoECA4QAw&biw=1270&bih=718&dpr=2" style="color:inherit">See More</a></button>
+          </div>
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+        <!--FOOTER HERE -->
+
+        <div class="footer text-center">
+            <p>Created with sweaty paws by Meowser Hisstley. <br>
+              Contact at<a href="mailto:someone@email.com"> Hissy@gmail.com</a> </p>
+          </div>
+
+
+
+
+
+          <!-- Optional JavaScript -->
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </body>
+
+        </html>
